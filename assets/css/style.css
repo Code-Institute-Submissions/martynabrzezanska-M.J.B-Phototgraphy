@@ -3,3 +3,12 @@
     padding: 0;
 }
 
+.navigation {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(/assets/images/navigation-image.webp);
+
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
