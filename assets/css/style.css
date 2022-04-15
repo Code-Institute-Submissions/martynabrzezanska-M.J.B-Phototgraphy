@@ -6,11 +6,11 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.container {
-        max-width: 100vh;
-        margin: 0;
-        padding: 0;
-    }
+h2 {
+    color: black;
+    font-size: 35px;
+    text-transform: uppercase;
+}
 
 .navigation {
     min-height: 100vh;
@@ -74,11 +74,12 @@ nav {
 
 .text h1 {
     font-size: 35px;
+    text-transform: uppercase;
 }
 
 .text p {
     font-size: 20px;
-    margin: 10px 0 40px;
+    margin: 25px 0 25px;
     color:black;
 }
 
@@ -110,12 +111,6 @@ nav {
     text-shadow: 1px 1px 2px rgba(150, 150, 150, 1);
 }
 
-.packages h1 {
-    color: black;
-    font-size: 35px;
-    text-transform: uppercase;
-}
-
 .packages p {
     padding: 15px;
 }
@@ -142,7 +137,12 @@ nav {
 }
 
 .pack-choice:hover {
-    box-shadow: 0 0 20px 0px rgba(170, 35, 35, 0.662);
+    box-shadow: 0 0 20px 0px rgba(202, 15, 15, 0.818);
+}
+
+.pack-choice a, .pack-choice a:visited {
+    text-decoration: none;
+    color: black;
 }
 
 
