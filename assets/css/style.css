@@ -104,7 +104,7 @@ nav {
 
 .packages {
     width: 80%;
-    height: 100px;
+    height: fit-content;
     margin: auto;
     text-align: center;
     padding-top: 80px;
@@ -146,19 +146,9 @@ nav {
     color: black;
 }
 
-.photos {
-   margin: auto;
-   text-align: center;
-   padding-top: 80px;
-}
-
-
-.row {
-    clear: both;
-    column-count: 3;
-    column-gap: 0;
-}
-  
-.row > column {
+footer {
+    position: relative;
     width: 100%;
+    background-color: #ccc;
+    height: 100px;
 }
