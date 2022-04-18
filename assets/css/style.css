@@ -157,7 +157,7 @@ footer {
     justify-content:space-between;
     position: relative;
     width: 100%;
-    min-height: 100px;
+    padding-bottom: 15px;
     background-color: rgb(37, 37, 37);
     letter-spacing: 2px;
 }
@@ -183,7 +183,7 @@ footer p {
 }
 
 .brand-info {
-   align-items: center;
+   text-align: center;
    flex-wrap: wrap;
    position: relative;
 }
@@ -197,13 +197,18 @@ footer p {
     margin-top: 24px;
 }
 
+.about-buttons {
+    display: inline-flex;
+}
+
 .brand-info .btn-info {
     text-decoration: none;
-    border: 1px solid;            
+    border: 1px solid;       
+    width: 100px; 
+    height: 20px;    
     border-radius: 43px;
-    font-size: 13px;
     padding: 7px 30px;
-    line-height: 47px;
+    margin: 0 10px;
     color: white;
 }
 
@@ -211,6 +216,7 @@ footer p {
     text-decoration: none;
     color: #f44;
 }
+
 
 .social-media {
     margin-right: 35px;
