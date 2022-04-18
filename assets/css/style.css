@@ -149,18 +149,79 @@ nav {
     color: black;
 }
 
+
 footer {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
     position: relative;
     width: 100%;
-    background-color: #ccc;
-    height: 100px;
+    min-height: 100px;
+    background-color: rgb(37, 37, 37);
+    letter-spacing: 2px;
+}
+
+footer p {
+    font-size: 18px;
+}
+
+.brand-contacts {
+    margin-left: 35px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.brand-contacts h5 {
+    font-size: 175%;
+    margin-top: 25px;
+}
+
+.brand-contacts p {
+    margin-top: 75px;
+    position: absolute;
+}
+
+.brand-info {
+   align-items: center;
+   flex-wrap: wrap;
+   position: relative;
+}
+
+.brand-info h6 {
+    font-size: 175%;
+    margin-top: 25px;
+}
+
+.brand-info p {
+    margin-top: 24px;
+}
+
+.brand-info .btn-info {
+    text-decoration: none;
+    border: 1px solid;            
+    border-radius: 43px;
+    font-size: 13px;
+    padding: 7px 30px;
+    line-height: 47px;
+    color: white;
+}
+
+.btn-info:hover {
+    text-decoration: none;
+    color: #f44;
 }
 
 .social-media {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
+    margin-right: 35px;
+    float: right;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.social-media h6 {
+    font-size: 175%;
+    margin-top: 25px;
 }
 
 .social-icons {
@@ -169,12 +230,13 @@ footer {
     column-gap: 20px;
     list-style-type: none;
 }
+
 .list-item i {
-    font-size: 24px;
+    font-size: 30px;
     margin: 30px 10px;
 }
 
-
-.brand-contact {
-    width: 300px;
+.list-item a {
+    color: white;
 }
+
