@@ -111,12 +111,8 @@ nav {
     text-shadow: 1px 1px 2px rgba(150, 150, 150, 1);
 }
 
-.packages p {
-    padding: 15px;
-}
-
 .row {
-    margin-bottom: 5%;
+    margin-bottom: 2%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -124,26 +120,26 @@ nav {
 
 .row h2 {
     text-align: center;
-    text-transform: uppercase;
-    font-size: 25px;
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-bottom: 2%;
+}
+
+.rating {
+    margin: 10px 0;
+    overflow: hidden;
 }
 
 .pack-choice {
     text-align: justify;
+    letter-spacing: 0.5px;
+    border: 1px solid black;
+    border-radius: 15px;;
     flex-basis: 30%;
     min-width: 300px;
-    background-color: rgb(251, 249, 249);
-    margin-top: 5%;
-    padding: 20px 10px;
+    margin-top: 2%;
+    padding: 20px 20px;
     box-sizing: border-box;
-    transition: 0.5s;
-}
-.pack-choice p {
-    letter-spacing: 2px;
-}
-
-.pack-choice:hover {
-    box-shadow: 0 0 20px 0px rgba(202, 15, 15, 0.818);
 }
 
 .pack-choice a, .pack-choice a:visited {
@@ -151,6 +147,33 @@ nav {
     color: black;
 }
 
+.pack-info {
+    margin: 0 auto;
+    margin-top: 20px;;
+    border: solid 2px black;
+    border-radius: 20px;
+    display: block;
+    text-align: center;
+    padding-top: 4px;
+    width: 160px;
+    height: 25px;
+}
+
+.fa-star {
+    color: gold;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.images {
+    min-height: 75vh;
+    width: 100%;
+    background-image: url('/assets/images/pexels-photo-5651547.jpeg');
+
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
 
 footer {
     display: flex;
@@ -180,7 +203,7 @@ footer p {
 }
 
 .brand-contacts h5 {
-    font-size: 150%;
+    font-size: 140%;
     margin-top: 25px;
 }
 
@@ -196,7 +219,7 @@ footer p {
 }
 
 .brand-info h6 {
-    font-size: 150%;
+    font-size: 140%;
     margin-top: 25px;
 }
 
@@ -237,7 +260,7 @@ footer p {
 }
 
 .social-media h6 {
-    font-size: 150%;
+    font-size: 140%;
     margin-top: 25px;
 }
 
@@ -249,8 +272,8 @@ footer p {
 }
 
 .list-item i {
-    font-size: 30px;
-    margin: 30px 10px;
+    font-size: 170%;
+    margin: 25px 10px;
     color: white;
 }
 
@@ -259,3 +282,6 @@ footer p {
     text-align: end;
 }
 
+.fa-brands {
+    color: blue;
+}
