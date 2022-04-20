@@ -134,12 +134,9 @@ nav {
     text-align: center;
     text-transform: capitalize;
     font-size: 25px;
-    margin-bottom: 2%;
-}
-
-.rating {
-    margin: 15px 0;
-    overflow: hidden;
+    margin-bottom: 5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .pack-choice {
@@ -149,9 +146,23 @@ nav {
     border-radius: 15px;;
     flex-basis: 30%;
     min-width: 300px;
-    padding: 20px 20px;
     box-sizing: border-box; 
     transition: 0.5s;
+}
+
+.rating {
+    margin: 0px 15px;
+    overflow: hidden;
+}
+
+.pack-choice-text {
+    margin: 0px 15px;
+}
+
+.pack-choice h2 {
+    background-color: #f44;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
 }
 
 .pack-choice:hover {
@@ -298,9 +309,11 @@ footer p {
 .flex-container {
     min-height: 100vh;
     width: 100%;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    position: relative;
     display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .flex-child {
@@ -308,14 +321,29 @@ footer p {
 }
 
 .picture-box {
-    width: 450px;
-    height: 650px;
+    max-width: 700px;
+    max-height: 650px;
     position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     box-shadow: 8px 8px 10px #aaa;
+    flex-wrap: wrap;
 }
 
+.survey-form {
+    background-color: #fff;
+    width: 500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+  }
 
+.form-detail {
+    text-align: right;
+  }
 
+.form-details label {
+    display: block;
+    margin-bottom: 8px;
+  }
