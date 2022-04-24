@@ -35,19 +35,16 @@
             </div>
         </header>
 
-        <section class="flex-container">
-            <div class="flex-child">
-                <img src="/assets/images/pexels-photo-10256496.webp" class="picture-box">
-            </div>
-            <div class="flex-child">
+        <section class="survey-form">
                 <form class="survey-box">
+                    <h2 class="message">Send us a message!</h2>
                     <div class="form-details">
                         <label for="name">Your First Name:</label>
-                            <input id="name" type="text" name="partner1" placeholder="Enter your full name"/>
+                            <input id="name" type="text" name="firtsname" placeholder="Enter your full name"/>
                     </div>
                     <div class="form-details">
-                        <label for="name">Your Partner's First Name:</label>
-                            <input id="name" type="text" name="name-1" placeholder="Enter your full name"/>
+                        <label for="partners-name">Your Partner's First Name:</label>
+                            <input id="partners-name" type="text" name="partnersname" placeholder="Partner's name"/>
                     </div>
                     <div class="form-details">
                         <label for="email">Email:</label>
@@ -66,38 +63,36 @@
                     </div>
                     <div class="form-details">
                         <label for="date">Event Date:</label>
-                            <input id="date" type="date" name="date" placeholder="Choose date"/>
+                            <input id="date" type="date" name="date"/>
                     </div>
                     <div class="form-details">
-                        <label>Where did you hear about us?<small>(Check all that apply)</small></label>
+                        <label>Where did you hear about us?<small>(Check all that apply)</small></label><br>
                             <label for="choice1">
-                                <input type="checkbox" name="choice1">Instagram</label>
-                            </label>
+                                <input id="choice1" type="checkbox" name="choice1">Instagram</label>
+                            <br>
                             <label for="choice2">
-                                <input type="checkbox" name="choice2">Facebook</label>
-                            </label>
+                                <input id="choice2" type="checkbox" name="choice2">Facebook</label>
+                            <br>
                             <label for="choice3">
-                                <input type="checkbox" name="choice3">Pintrest</label>
-                            </label>
+                                <input id="choice3" type="checkbox" name="choice3">Pintrest</label>
+                            <br>
                             <label for="choice4">
-                                <input type="checkbox" name="choice4">TikTok</label>
-                            </label>
+                                <input id="choice4" type="checkbox" name="choice4">TikTok</label>
+                            <br>
                             <label for="choice5">
-                                <input type="checkbox" name="choice5">Family</label>
-                            </label>
+                                <input id="choice5" type="checkbox" name="choice5">Family</label>
+                            <br>
                             <label for="choice6">
-                                <input type="checkbox" name="choice6">Friend</label>
-                            </label>
+                                <input id="choice6" type="checkbox" name="choice6">Friend</label>
                     </div>
                     <div class="form-details">
                         <label for="comment">
-                            Tell me about special day and your love story!</label>
-                            <textarea name="comment" id="comment" name="comment" placeholder="Enter your comment here">
+                            Tell me about special day and your love story!</label><br>
+                            <textarea name="comment" id="comment" placeholder="Enter your comment here">
                             </textarea>
                     </div>
-                        <button type="submit value=submit">Submit</button>  
+                        <button type="submit" value="submit">Submit</button>  
                 </form>
-            </div>
         </section>
         
         <footer>
