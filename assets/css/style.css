@@ -377,6 +377,8 @@ button:hover {
 }
 
 .image-container {
+    padding-top: 80px;
+    padding-bottom: 80px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -386,7 +388,27 @@ button:hover {
     flex-wrap: wrap;
 }
 
-.box {
-    width: 100px;
-    width: fit-content;
+.image-box {
+    margin: 0 auto;
+    width: 500px;
+    border: 1px solid black;
 }
+
+.image-box img {
+    width: 100%;
+    height: 90%;
+}
+
+@media screen and (max-width: 400px) {
+    .image-box {
+        width: 100%;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) {
+      .image-box {
+          width: 400px;
+      }
+  }
