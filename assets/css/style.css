@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
 
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Oxygen', sans-serif;
 }
 
 h2 {
@@ -44,7 +44,7 @@ nav {
 
 .nav-links ul li {
     padding-top: 6px;
-    font-size: 125%;
+    font-size: 135%;
     list-style: none;
     display: inline-block;
     margin-left: 55px;
@@ -58,7 +58,7 @@ nav {
 }
 
 .nav-links ul li a:hover {
-    color: #f44;
+    color: palevioletred;
     transition: 1s;
 }
 
@@ -111,8 +111,8 @@ nav {
 }
 
 .btn-gallery:hover {
-    border: 2px solid #f44;
-    background-color: #f44;
+    border: 2px solid palevioletred;
+    background-color:  palevioletred;
     transition: 0.5s;
 }
 
@@ -165,7 +165,7 @@ nav {
 }
 
 .pack-choice h2 {
-    background-color: #f44;
+    background-color: palevioletred;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
 }
@@ -275,7 +275,7 @@ footer p {
 
 .btn-info:hover {
     text-decoration: none;
-    color: #f44;
+    color: palevioletred;
 }
 
 
@@ -324,7 +324,7 @@ footer p {
     margin-top: 80px;
     padding: 30px 20px;
     box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
-    background-color:rgb(247, 247, 240);
+    background-color: rgba(255, 192, 203, 0.39);
 }
 
 .form-details {
@@ -337,10 +337,14 @@ footer p {
     margin-bottom: 8px;
 }
 
+input[type=checkbox] {
+    margin-right: 10px;
+  }
+
 .form-details input,
 .form-details select,
 .form-details textarea {
-    border: 1px solid #777;
+    border: 1px solid black;
     border-radius: 2px;
     padding: 8px;
     display: block;
@@ -353,7 +357,7 @@ footer p {
 }
 
 textarea {
-    font-size: 15px;
+    font-size: 16px;
 }
 
 button {
@@ -371,8 +375,8 @@ button {
 }
 
 button:hover {
-    border: 2px solid #f44;
-    background-color: #f44;
+    border: 2px solid pink;
+    background-color: pink;
     transition: 0.5s;
 }
 
