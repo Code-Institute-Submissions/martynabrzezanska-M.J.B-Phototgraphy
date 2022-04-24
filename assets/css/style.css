@@ -17,8 +17,8 @@ h2 {
     width: 100%;
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 0.5)
-      ), url(/assets/images/navigation-image.webp);
+        rgba(0, 0, 0, 0.5)), 
+        url(/assets/images/navigation-image);
 
     background-position: center;
     background-size: cover;
@@ -198,10 +198,10 @@ nav {
     padding-top: 10px;
 }
 
-.images {
+.image-html {
     min-height: 75vh;
     width: 100%;
-    background-image: url('/assets/images/pexels-photo-5651547.jpeg');
+    background-image: url('/assets/images/image-html');
 
     background-position: center;
     background-size: cover;
@@ -374,4 +374,19 @@ button:hover {
     border: 2px solid #f44;
     background-color: #f44;
     transition: 0.5s;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 100px;
+    width: fit-content;
 }
