@@ -30,7 +30,11 @@ nav {
     padding: 1% 3%;
     justify-content: space-between;
     text-align: center;
-    background:rgba(255,255,255, 0.1);
+    background-color: rgb(37, 37, 37);
+}
+
+.nav-bar a {
+    color: white;
 }
 
 .nav-links {
@@ -39,6 +43,7 @@ nav {
 }
 
 .nav-links ul li {
+    padding-top: 6px;
     font-size: 125%;
     list-style: none;
     display: inline-block;
@@ -47,7 +52,7 @@ nav {
 }
 
 .nav-links ul li a {
-    color: black;
+    color: white;
     text-decoration: none;
     cursor: pointer;
 }
@@ -306,3 +311,63 @@ footer p {
     text-align: end;
 }
 
+.survey-form {
+    min-height: 100vh;
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.survey-box {
+    display: inline-block;
+    max-width: 600px;
+    margin-top: 80px;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.form-details {
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.form-details label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+
+.form-details input,
+.form-details textarea {
+    border: 1px solid #777;
+    border-radius: 2px;
+    padding: 8px;
+    display: block;
+    width: 95%;
+}
+
+.form-details input[type="radio"],
+.form-details input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+}
+
+textarea {
+    font-size: 15px;
+    max-width: 450px;
+}
+
+button {
+    background-color:#f44;
+    border: 1px solid balck;
+    border-radius: 2px;
+    width: 75%;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
