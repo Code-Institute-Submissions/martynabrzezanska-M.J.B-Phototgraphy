@@ -316,6 +316,38 @@ footer p {
     text-align: end;
 }
 
+/* meet me */
+
+.meet-me {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 80px 40px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.my-portrait {
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    width: 450px;
+    border-radius: 60%;
+    box-shadow: rgba(0, 0, 0, 0.3) 2px 1px 10px;
+}
+
+.about-paragraph {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    text-align: justify;
+    margin-left: 35px;
+}
+
+.about-paragraph h1 {
+    margin-bottom: 15px;
+}
+
 /* form */
 
 .form-container {
