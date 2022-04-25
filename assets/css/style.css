@@ -63,7 +63,7 @@ nav {
 
 .nav-links ul li a:hover {
     color: palevioletred;
-    transition: 1s;
+    transition: 0.2s;
 }
 
 .nav-links a:hover {
@@ -81,7 +81,7 @@ nav {
 }
 
 .text {
-    width: 50%;
+    width: 60%;
     color: white;
     position: absolute;
     top: 50%;
@@ -108,16 +108,16 @@ nav {
     text-transform: uppercase;
     color: black;
     border: solid 2px black;
-    background: white;
+    background: palevioletred;
     position: relative;
     padding: 12px 34px;
     cursor: pointer;
 }
 
 .btn-gallery:hover {
-    border: 2px solid palevioletred;
-    background-color:  palevioletred;
-    transition: 0.5s;
+    border: 2px solid white;
+    background-color:  white;
+    transition: 0.2s;
 }
 
 /* packages */
@@ -126,8 +126,8 @@ nav {
     max-width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .pricing-table p {
@@ -339,7 +339,7 @@ footer p {
 .about-paragraph {
     display: flex;
     flex-wrap: wrap;
-    max-width: 950px;
+    max-width: 900px;
     text-align: justify;
     margin-left: 35px;
 }
@@ -354,17 +354,23 @@ footer p {
     display: block;
     text-align: center;
     font-size: 18px;
+    padding-top: 50px;
     padding-bottom: 50px;
+    background-image: url(/assets/images/pexels-photo-3062228.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
 }
 
 .contact-form {
     margin: 0 auto;
     display: block;
     max-width: 600px;
-    margin-top: 80px;
     padding: 30px 20px;
     box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
-    background-color: rgb(240, 219, 223);
+    border: 1px solid black;
+    background-color: transparent;
+    position: relative;
 }
 
 .form-details {
