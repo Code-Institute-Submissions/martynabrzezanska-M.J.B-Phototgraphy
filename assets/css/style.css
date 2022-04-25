@@ -393,8 +393,6 @@ button:hover {
 }
 
 .image-container {
-    padding-top: 80px;
-    padding-bottom: 80px;
     display: flex;
     flex-wrap: wrap;
 }
