@@ -12,6 +12,8 @@ h2 {
     text-transform: uppercase;
 }
 
+/* navigation */
+
 .navigation {
     min-height: 100vh;
     width: 100%;
@@ -117,9 +119,7 @@ nav {
     transition: 0.5s;
 }
 
-nav .fa {
-    display: none;
-}
+/* packages */
 
 .pricing-table {
     max-width: 80%;
@@ -212,6 +212,8 @@ nav .fa {
     background-size: cover;
     position: relative;
 }
+
+/* footer */
 
 footer {
     display: flex;
@@ -314,6 +316,8 @@ footer p {
     text-align: end;
 }
 
+/* form */
+
 .form-container {
     display: block;
     text-align: center;
@@ -384,6 +388,8 @@ button:hover {
     background-color: pink;
     transition: 0.5s;
 }
+
+/* gallery */ 
 
 .about-gallery {
     padding-top: 80px;
