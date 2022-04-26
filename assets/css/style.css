@@ -502,6 +502,9 @@ button:hover {
         text-align: center;
     }
 
+/*Packages Media Query Mobile Device */
+
+    @media (min-width: 320px) and (max-width: 480px) {
     .pricing-table {
         padding-top: 50px;
         padding-bottom: 50px;
@@ -514,10 +517,10 @@ button:hover {
     .row {
         row-gap: 10px
     }
+}
 
 /* Footer Media Query Mobile Device */
 @media (min-width: 320px) and (max-width: 480px) {
-
     footer {
         justify-content: center;
     }
