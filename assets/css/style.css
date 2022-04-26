@@ -53,6 +53,7 @@ nav {
     display: inline-block;
     margin-left: 55px;
     position: relative;
+    text-transform: uppercase;
 }
 
 .nav-links ul li a {
@@ -78,6 +79,7 @@ nav {
     font-size: 175%;
     color: black;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 .text {
@@ -197,6 +199,11 @@ nav {
     height: 25px;
 }
 
+.pack-info:hover {
+    text-decoration: none;
+    color: palevioletred;
+}
+
 .fa-star {
     color: gold;
     font-size: 20px;
@@ -229,34 +236,26 @@ footer {
 }
 
 footer p {
-    font-size: 12px;
+    font-size: 0.8rem;
 }
 
 .brand-contacts {
     margin-left: 35px;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
 }
 
-.brand-contacts h5 {
-    font-size: 140%;
+.heading-footer {
+    color: white;
+    font-size: 1.5rem;
     margin-top: 25px;
-}
-
-.brand-contacts p {
-    margin-top: 75px;
-    position: absolute;
 }
 
 .brand-info {
    text-align: left;
    flex-wrap: wrap;
    position: relative;
-}
-
-.brand-info h6 {
-    font-size: 140%;
-    margin-top: 25px;
 }
 
 .brand-info p {
@@ -267,22 +266,22 @@ footer p {
     display: inline-flex;
 }
 
-.btn-info {
-    font-size: 13px;
-}
 
-.brand-info .btn-info {
+.btn-info {
+    background-color: white;
     text-decoration: none;
     border: 2px solid;          
     border-radius: 43px;
     padding: 7px 30px;
     margin: 8px;
-    color: white;
+    font-size: 13px;
+    color: #000;
 }
 
 .btn-info:hover {
     text-decoration: none;
     color: palevioletred;
+    transform: scale(1.2);
 }
 
 
@@ -328,20 +327,17 @@ footer p {
 }
 
 .my-portrait {
-    display: flex;
-    flex-wrap: wrap;
-    height: 400px;
-    width: 450px;
+    
+    flex: 1 1 20em;
+    max-width: 300px;
     border-radius: 60%;
     box-shadow: rgba(0, 0, 0, 0.3) 2px 1px 10px;
 }
 
 .about-paragraph {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 900px;
+    flex: 1 2 20em;
     text-align: justify;
-    margin-left: 35px;
+    margin-left: 45px;
 }
 
 .about-paragraph h1 {
@@ -471,3 +467,77 @@ button:hover {
           width: 400px;
       }
   }
+
+
+/* Navigation Media Query Mobile Device */
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .logo, .nav-links {
+        text-align: center;
+    }
+    
+    .nav-links {
+        border-top: 2px solid white;
+        margin-top: 8px;
+        padding-top: 4px;
+    }
+
+    nav {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+    .nav-links ul li {
+        margin-left: 0;
+        padding-right: 12px;
+    }
+    .text {
+        top: 55%;
+        text-align: end;
+        width: 80%;
+    }
+
+    .btn-gallery {
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .pricing-table {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .pack-choice {
+        flex-basis: 100%;
+    }
+
+    .row {
+        row-gap: 10px
+    }
+
+/* Footer Media Query Mobile Device */
+@media (min-width: 320px) and (max-width: 480px) {
+
+    footer {
+        justify-content: center;
+    }
+
+    .brand-contacts, .social-media {
+        margin: 0;
+    }
+
+    .brand-info, .brand-contacts, .social-media {
+        width: 90%;
+    }
+
+    footer p {
+        font-size: 0.9rem;
+    }
+    .image-gallery {
+        row-gap: 10px;
+
+    }
+    .image-box {
+        padding-bottom: 8px;
+    }
+}
