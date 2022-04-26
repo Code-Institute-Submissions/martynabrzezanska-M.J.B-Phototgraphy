@@ -428,21 +428,14 @@ button:hover {
 
 /* gallery */ 
 
-.about-gallery {
-    padding-top: 80px;
-    padding-bottom: 80px;
-    display: flex;
-    flex-wrap: wrap;
-}
-
 .image-container {
+    padding-top: 10px;
+    padding-bottom: 10px;
     display: flex;
     flex-wrap: wrap;
 }
 
 .image-gallery {
-    padding-left: 4px;
-    padding-right: 4px;
     display: flex;
     flex-wrap: wrap;
 }
