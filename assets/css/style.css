@@ -13,7 +13,7 @@ h2 {
     text-transform: uppercase;
 }
 
-/* navigation */
+/* Navigation Image taken from https://www.pexels.com/photo/white-rose-flower-arrangement-273941/ */
 
 .navigation {
     min-height: 100vh;
@@ -218,7 +218,7 @@ nav {
     position: relative;
 }
 
-/* footer */
+/* Footer main */
 
 footer {
     display: flex;
@@ -237,6 +237,8 @@ footer p {
     font-size: 0.8rem;
 }
 
+/* Brand contacts part of the footer */
+
 .brand-contacts {
     margin-left: 35px;
     display: flex;
@@ -249,6 +251,8 @@ footer p {
     font-size: 1.5rem;
     margin-top: 25px;
 }
+
+/* Brand info part of the footer */
 
 .brand-info {
    text-align: left;
@@ -282,6 +286,7 @@ footer p {
     transform: scale(1.2);
 }
 
+/* Social Media part of the footer */
 
 .social-media {
     margin-right: 35px;
@@ -313,7 +318,7 @@ footer p {
     text-align: end;
 }
 
-/* meet me */
+/* Meet me section */
 
 .meet-me {
     display: flex;
@@ -341,15 +346,17 @@ footer p {
     margin-bottom: 15px;
 }
 
-/* form */
+/* Contact form */
 
 .form-container {
     display: block;
     text-align: center;
     font-size: 18px;
+    font-weight: bold;
     padding-top: 50px;
     padding-bottom: 50px;
-    background-image: url(/assets/images/pexels-photo-3062228.jpeg);
+    background-image: /* Image taken from https://www.pexels.com/photo/photo-of-couple-standing-near-each-other-3062228/ */ 
+    url(/assets/images/form-container-image);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -384,7 +391,6 @@ input[type=checkbox] {
 .form-details select,
 .form-details textarea {
     border: 1px solid #000000;
-    border-radius: 2px;
     padding: 8px;
     display: block;
     width: 95%;
@@ -396,7 +402,7 @@ input[type=checkbox] {
 }
 
 textarea {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 button {
@@ -500,7 +506,7 @@ button:hover {
         text-align: center;
     }
 
-/*Packages Media Query Mobile Device */
+/* Packages Media Query Mobile Device */
 
     @media (min-width: 320px) and (max-width: 480px) {
 
