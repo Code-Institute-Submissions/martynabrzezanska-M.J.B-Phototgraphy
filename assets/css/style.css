@@ -133,7 +133,8 @@ nav {
 .row {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 20px;
 }
 
 .row h2 {
@@ -149,7 +150,6 @@ nav {
     text-align: justify;
     border: 1px solid #000000;
     border-radius: 15px;;
-    flex-basis: 30%;
     min-width: 300px;
     box-sizing: border-box; 
     transition: 0.5s;
@@ -247,6 +247,7 @@ footer p {
     color: #FFFFFF;
     font-size: 1.5rem;
     margin-top: 20px;
+    letter-spacing: 4px;
 }
 
 /* Brand info part of the footer */
@@ -258,13 +259,12 @@ footer p {
 }
 
 .brand-info p {
-    margin-top: 24px;
+    margin-top: 20px;
 }
 
 .about-buttons {
     display: inline-flex;
 }
-
 
 .btn-info {
     background-color: #FFFFFF;
@@ -306,7 +306,7 @@ footer p {
 }
 
 .list-item i {
-    font-size: 200%;
+    font-size: 225%;
     font-weight: lighter;
     margin: 25px 10px;
     color: #FFFFFF;
@@ -347,8 +347,8 @@ footer p {
 }
 
 .my-portrait {
-    width: 375px;
-    height: 355px;
+    width: 300px;
+    height: 300px;
     border-radius: 60%;
     box-shadow: rgba(0, 0, 0, 0.3) 2px 1px 10px;
 }
@@ -565,5 +565,17 @@ button:hover {
     }
     .image-box {
         padding-bottom: 8px;
+    }
+}
+
+/* Footer Media Query for Ipad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+
+    footer {
+        justify-content: start;
+    }
+
+    .brand-contacts, .social-media {
+        margin: 0;
     }
 }
