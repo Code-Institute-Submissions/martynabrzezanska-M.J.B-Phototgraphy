@@ -117,7 +117,7 @@ nav {
 
 /* packages */
 
-.pricing-table {
+.packages {
     max-width: 80%;
     margin: auto;
     text-align: center;
@@ -125,7 +125,7 @@ nav {
     padding-bottom: 100px;
 }
 
-.pricing-table p {
+.packages p {
     margin-top: 25px;
     margin-bottom: 25px;
 }
@@ -494,7 +494,7 @@ button:hover {
         margin-left: 15px;
         padding-right: 12px;
     }
-    .text {
+    .text-area {
         top: 55%;
         text-align: end;
         width: 80%;
@@ -509,7 +509,7 @@ button:hover {
 
     @media (min-width: 320px) and (max-width: 480px) {
 
-    .pricing-table {
+    .packages {
         padding-top: 50px;
         padding-bottom: 50px;
     }
