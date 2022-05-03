@@ -80,7 +80,7 @@ nav {
     text-transform: uppercase;
 }
 
-.text {
+.text-area {
     width: 60%;
     color: #FFFFFF;
     position: absolute;
@@ -91,7 +91,7 @@ nav {
     text-transform: capitalize;
 }
 
-.text p {
+.text-area p {
     font-size: 18px;
     margin: 25px 0 25px;
 }
