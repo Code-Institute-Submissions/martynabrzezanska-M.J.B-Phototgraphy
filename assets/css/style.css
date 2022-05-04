@@ -20,7 +20,7 @@ h2 {
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.5)), 
-        url(/assets/images/navigation-image);
+        url(../assets/images/navigation-image);
 
     background-position: center;
     background-size: cover;
@@ -213,7 +213,7 @@ nav {
 .image-html {
     min-height: 75vh;
     width: 100%;
-    background-image: url('/assets/images/image-html');
+    background-image: url(../assets/images/image-html);
 
     background-position: center;
     background-size: cover;
