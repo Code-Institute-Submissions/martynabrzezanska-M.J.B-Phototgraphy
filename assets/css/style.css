@@ -80,6 +80,11 @@ nav {
     text-transform: uppercase;
 }
 
+.logo span {
+    color: #DB7093;
+    font-size: 140%;
+}
+
 .text-area {
     width: 60%;
     color: #FFFFFF;
@@ -418,8 +423,8 @@ button {
 }
 
 button:hover {
-    border: 2px solid #FFC0CB;
-    background-color: #FFC0CB;
+    border: 2px solid #DB7093;
+    background-color: #DB7093;
     transition: 0.5s;
 }
 
@@ -507,7 +512,7 @@ button:hover {
 }
 /* Main section Media Query Mobile Device */
 
-    @media (min-width: 320px) and (max-width: 480px) {
+    @media only screen and (max-width: 480px) {
 
     .packages {
         padding-top: 50px;
@@ -524,6 +529,10 @@ button:hover {
 
     .about-paragraph {
         margin-left: 0;
+    }
+
+    .text-area {
+        font-size: 80%;
     }
 }
 
