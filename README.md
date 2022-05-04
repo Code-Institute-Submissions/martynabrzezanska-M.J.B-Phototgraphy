@@ -52,7 +52,7 @@ A responsive button that changes the color on hovering. When the user clicks the
 2. The user can easily navigate around the website. 
 3. A shortcut to the contact section is provided to the user.
 
-### Wedding Packages
+## **Wedding Packages**
 In this section, the user is able to find out about the various types of wedding packages available. The transition attribute is used in this section so that when the user interacts with one of the three items, the property value changes gradually over a set period of time. Each element of this section also contain a responsive button with a fade in effect that when clicked takes the user to the contact page. 
 
 ![Wedding Packages](/assets/images/readme%20images%20/weddingPackages.png)
@@ -62,7 +62,7 @@ In this section, the user is able to find out about the various types of wedding
 1. Lets the user know about the various types of wedding packages available.
 2. When the user clicks on the link, they are directed to a contact page where they can make fill in a contact form. 
 
-### Image HTML
+## **Image HTML**
 This section includes an image that corresponds to the wedding's theme. It's black and white, and blends in well with the rest ot the website's content. 
 
 
@@ -74,7 +74,7 @@ This section includes an image that corresponds to the wedding's theme. It's bla
 2. The colors are constant and cohesive across the site.
 3. It gives the user a glimpse of the gallery as well as the final product.
 
-### Footer
+## **Footer**
 The footer provides a gateway to information about the location and the telephone number, two responsive buttons that lead to either a gallery/ contact page, and links to the website's social media platforms. This section serves as an extension to the navigation menu by encapsulating the most significant sections of it and providing quick access to a well-structured list of navigational options.
 
 The footer also contains copy right text for the website.
@@ -89,7 +89,7 @@ The footer had a black backdrop with white text, creating a great contrast that 
 2. Gives the site owner a way to promote their business on social media.
 3. Lets the user navigate around website content.
 
-### Gallery Page
+## **Gallery Page**
 The gallery page consists of multiples of images arranged using the flex property. Each photo highlights the final products and services featured on the site. The gallery page allows the user to view several images at once, capturing the user's attention and eliciting feelings that will hopefully lead to the user wanting to make use of the services and contact the photographer by clicking either on the navigation bar or footer area with clickable contact button. 
 
 ![Gallery Page](/assets/images/readme%20images%20/galleryPage.png)
@@ -99,10 +99,10 @@ The gallery page consists of multiples of images arranged using the flex propert
 1. The user can see the final product of previous customer's photography.
 2. The user can make judgement based on what they see and make initial decision whether or not they want to use the services. 
 
-### Meet Me Section
+## **Meet Me Section**
 
 
-### Contact Form
+## **Contact Form**
 New visitor either hesitant and those wanting to make use of the service they can contact a photographer via contact form found on contact page. 
 
 The contact form contains the following elements:
@@ -134,8 +134,33 @@ The form fields are validated by HTML. All form fields are also type specific if
 # Deployment
 The repository of this project is stored at GitHub and the site is deployed as GitHub page. Please (Click here!) to visit the project site.
 
+# Testing
+>- I tested that this website works in different browsers such as Chrome, Firefox and Safari.
+>- I can confirm that the website is responsive, looks presentable and functions on all standard screen sizes using the devtools device toolbar. 
+>- The content on the website contains clear information and structure. 
+>- I verified that the form functions properly and that the most critical details require validation, which means that the input must contain the correct type value.
+
+# Bugs 
+
+# Validator Testing
+>- HTML 
+No errors were detected when passing the code through the official W3C validator.
+>- CSS
+No errors were found when passing through the official Jigsaw validator. 
+>- Accessibility 
+I confirmed that the colors and fonts are easy to read and accessible by running the website through the lighthouse in devtools. Here is the result: 
+
+![Accessibility Score](/assets/images/readme%20images%20/accessibilityScore.png)
+
 # Fonts and icons 
 > - Fonts for text and headings has been imported through [Google Fonts](https://fonts.google.com/).
 > - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/).
+
+# Credits 
+**Content**
+>- 
+
+**Media**
+>- The images used throughout the website were taken from [Pexels](https://www.pexels.com)
 
 
