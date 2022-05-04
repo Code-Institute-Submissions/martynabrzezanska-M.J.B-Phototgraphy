@@ -132,7 +132,7 @@ The form fields are validated by HTML. All form fields are also type specific if
 ![Form Validation](/assets/images/readme%20images%20/form-validation.png)
 
 # Deployment
-The repository of this project is stored at GitHub and the site is deployed as GitHub page. Please (Click here!) to visit the project site.
+The repository of this project is stored at GitHub and the site is deployed as GitHub page. Please click here [GitHub](https://martynabrzezanska.github.io/M.J.B-Phototgraphy/) to visit the project site.
 
 # Testing
 >- I tested that this website works in different browsers such as Chrome, Firefox and Safari.
