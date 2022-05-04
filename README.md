@@ -92,6 +92,8 @@ The footer had a black backdrop with white text, creating a great contrast that 
 ### Gallery Page
 The gallery page consists of multiples of images arranged using the flex property. Each photo highlights the final products and services featured on the site. The gallery page allows the user to view several images at once, capturing the user's attention and eliciting feelings that will hopefully lead to the user wanting to make use of the services and contact the photographer by clicking either on the navigation bar or footer area with clickable contact button. 
 
+![Gallery Page](/assets/images/readme%20images%20/galleryPage.png)
+
 **What is accomplished:**
 
 1. The user can see the final product of previous customer's photography.
@@ -131,8 +133,6 @@ The form fields are validated by HTML. All form fields are also type specific if
 
 # Deployment
 The repository of this project is stored at GitHub and the site is deployed as GitHub page. Please (Click here!) to visit the project site.
-
-# Content 
 
 # Fonts and icons 
 > - Fonts for text and headings has been imported through [Google Fonts](https://fonts.google.com/).
