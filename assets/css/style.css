@@ -359,7 +359,7 @@ footer p {
     padding-top: 50px;
     padding-bottom: 50px;
     background-image: /* Image taken from https://www.pexels.com/photo/photo-of-couple-standing-near-each-other-3062228/ */ 
-    url('/images/form-container-image');
+    url('../images/pexels-photo-273941.jpeg');
     background-position: center;
     background-size: cover;
     position: relative;
