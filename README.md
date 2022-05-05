@@ -26,6 +26,11 @@ Three sub-pages present content for instant consumption on desktop, iPad, and mo
 ![Gallery Page](/assets/images/README%20images/laptopgallerypage.png)
 ![Contact Page](/assets/images/README%20images/laptopcontactpage.png)
 
+**Mobile**
+![Home Page](/assets/images/README%20images/homephoneview.jpg)
+![Gallery Page](/assets/images/README%20images/galleryphoneview.jpg)
+![Contact Page](/assets/images/README%20images/contactphoneview.jpg)
+
 # Developer Story and Goals
 Hands-on experience to built a web development portfolio that looks and works flawlessly. Implementation of features, run test and gain valuable experience and problem-solving practice.
 
