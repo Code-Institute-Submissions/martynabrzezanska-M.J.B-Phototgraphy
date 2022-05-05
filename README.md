@@ -132,7 +132,7 @@ The form fields are validated by HTML. For instance, if a form field expects an 
 ![Form Validation](/assets/images/README%20images/form-validation.png)
 
 # Deployment
-The repository of this project is stored at GitHub and the site is deployed as GitHub page. Please click here [GitHub](https://martynabrzezanska.github.io/M.J.B-Phototgraphy/) to visit the project site.
+The repository of this project is stored at GitHub and the site is deployed as GitHub page. Please click [here](https://martynabrzezanska.github.io/M.J.B-Phototgraphy/) to visit the project site.
 
 **The steps to deploy are as follows:**
 1. In the GitHub repository, navigate to the Settings tab

@@ -88,10 +88,8 @@ nav {
 .text-area {
     width: 60%;
     color: #FFFFFF;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    margin-top: 30%;
     text-align: center;
     text-transform: capitalize;
 }
@@ -104,13 +102,13 @@ nav {
 .btn-gallery {
     display: inline-block;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 1rem;
     text-transform: uppercase;
     color: #000000;
     border: solid 2px #000000;
     background: #DB7093;
     position: relative;
-    padding: 12px 34px;
+    padding: 1rem 1.5rem;
     cursor: pointer;
 }
 
@@ -530,11 +528,18 @@ button:hover {
     .about-paragraph {
         margin-left: 0;
     }
-
-    .text-area {
+    .text-area p {
         font-size: 80%;
     }
+    .logo {
+        font-size: 14px;
+    }
+
+    .meet-me {
+        padding: 10px;
+    }
 }
+
 
 /* Footer Media Query Mobile Device */
 @media (min-width: 320px) and (max-width: 480px) {
