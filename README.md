@@ -152,6 +152,7 @@ The repository of this project is stored at GitHub and the site is deployed as G
 >- I verified that the form functions properly and that the most critical details require validation, which means that the input must contain the correct type value.
 
 # Bugs 
+All bugs discovered have been addressed.
 
 # Validator Testing
 >- **HTML** 
@@ -168,8 +169,38 @@ I confirmed that the colors and fonts are easy to read and accessible by running
 > - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/).
 
 # Credits 
-**Content**
->- 
+In this section I want to give credits to resources I have used when creating this website.
+
+**Technical**
+I'd like to thank the materials I used for providing me with sufficient html and CSS skills to develop this website.
+
+**Code Institute**
+Since I'm a software developer student at Code Institute, the majority of my fundamental programming abilities and critical knowledge in html and CSS came from here:
+
+[Code Institute](http://codeinstitute.com)
+
+**Flex box guide**
+
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+# Tips and tricks
+Here I will are some things I picked up after googling and reading forums
+
+**Center an image from html through CSS:**
+
+https://www.w3schools.com/howto/howto_css_image_center.asp
+
+**Adding script to bottom of the page:**
+
+https://stackoverflow.com/questions/38407962/when-to-use-the-script-tag-in-the-head-and-body-section-of-a-html-page#:~:text=Put%20your%20functions%20in%20the,not%20interfere%20with%20page%20content.&text=If%20your%20is%20not%20placed,of%20the%20element
+
+**Styling input fields:**
+
+https://www.w3schools.com/css/css_form.asp
+
+**Using media queries:**
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries
 
 **Media**
 >- The images used throughout the website were taken from [Pexels](https://www.pexels.com)
