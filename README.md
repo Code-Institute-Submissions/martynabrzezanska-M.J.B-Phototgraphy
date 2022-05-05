@@ -172,7 +172,7 @@ No errors were found when passing through the official Jigsaw validator.
 >- **Accessibility** 
 I confirmed that the colors and fonts are easy to read and accessible by running the website through the lighthouse in devtools. Here is the result: 
 
-![Accessibility Score](/assets/images/README%20images/accessibilityScore.pngg)
+![Accessibility Score](/assets/images/README%20images/accessibilityScore.png)
 
 # Fonts and icons 
 > - Fonts for text and headings has been imported through [Google Fonts](https://fonts.google.com/).
@@ -193,8 +193,8 @@ Since I'm a software developer student at Code Institute, the majority of my fun
 
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
-# Tips and tricks
-Here I will are some things I picked up after googling and reading forums
+**Tips and tricks**
+Here are some things I picked up after googling and reading forums
 
 **Center an image from html through CSS:**
 
