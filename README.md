@@ -100,7 +100,7 @@ The gallery page consists of multiples of images arranged using the flex propert
 2. The user can make judgement based on what they see and make initial decision whether or not they want to use the services. 
 
 ## **Meet Me Section**
-
+![Meet Me](/assets/images/readme%20images%20/meetMe.png)
 
 ## **Contact Form**
 New visitor either hesitant and those wanting to make use of the service they can contact a photographer via contact form found on contact page. 
@@ -127,12 +127,17 @@ The form also has a bluish-colored background image, which goes well with the da
 2. The form is user-friendly, with suggestions on what to expect in each field and which        elements of the form must be completed before it can be submitted.
 
 # Form Field Validation
-The form fields are validated by HTML. All form fields are also type specific if applicable, meaning if a form field expects an email address, its input will not be accepted as valid if it is missing a correct email formatting.  
+The form fields are validated by HTML. For instance, if a form field expects an email address, the input will not be considered as acceptable if the email address is not formatted correctly (e.g. missing the @ symbol) or is missing required information.
 
 ![Form Validation](/assets/images/readme%20images%20/form-validation.png)
 
 # Deployment
 The repository of this project is stored at GitHub and the site is deployed as GitHub page. Please click here [GitHub](https://martynabrzezanska.github.io/M.J.B-Phototgraphy/) to visit the project site.
+
+**The steps to deploy are as follows:**
+1. In the GitHub repository, navigate to the Settings tab
+2. From the source section drop-down menu, select the Master Branch
+3. Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
 # Testing
 >- I tested that this website works in different browsers such as Chrome, Firefox and Safari.
@@ -143,11 +148,11 @@ The repository of this project is stored at GitHub and the site is deployed as G
 # Bugs 
 
 # Validator Testing
->- HTML 
+>- **HTML** 
 No errors were detected when passing the code through the official W3C validator.
->- CSS
+>- **CSS**
 No errors were found when passing through the official Jigsaw validator. 
->- Accessibility 
+>- **Accessibility** 
 I confirmed that the colors and fonts are easy to read and accessible by running the website through the lighthouse in devtools. Here is the result: 
 
 ![Accessibility Score](/assets/images/readme%20images%20/accessibilityScore.png)
