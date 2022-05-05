@@ -1,6 +1,6 @@
 # M.J.B Photography
 
-![amiresposive](/assets/images/README%20images/amiresponsive.png)
+![amiresposive](/assets/images/README%20images/amIresposive.png)
 
 ## User stories
 This website is for people who are wanting to hire a professional wedding photographer to capture the photos, moments, and details of life's most sentimental event. While on the website they will be able to learn more about the various wedding packages available, view the gallery of previous customer's photography, and contact a photographer by filling out a quick and simple form. In addition, the user will be able to build initial connections by reading a brief introduction to the person behind the curtain.
