@@ -213,7 +213,7 @@ nav {
 .image-html {
     min-height: 75vh;
     width: 100%;
-    background-image: url('/images/image-html');
+    background-image: url('/assets/images/image-html');
 
     background-position: center;
     background-size: cover;
