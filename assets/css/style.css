@@ -20,7 +20,7 @@ h2 {
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.5)), 
-        url('assets/images/pexels-photo-273941.jpeg');
+        url('../images/pexels-photo-273941.jpeg');
 
     background-position: center;
     background-size: cover;
@@ -213,7 +213,7 @@ nav {
 .image-html {
     min-height: 75vh;
     width: 100%;
-    background-image: url('assets/images/image-html');
+    background-image: url('../images/image-html');
 
     background-position: center;
     background-size: cover;
@@ -359,7 +359,7 @@ footer p {
     padding-top: 50px;
     padding-bottom: 50px;
     background-image: /* Image taken from https://www.pexels.com/photo/photo-of-couple-standing-near-each-other-3062228/ */ 
-    url('assets/images/form-container-image');
+    url('/assets');
     background-position: center;
     background-size: cover;
     position: relative;
