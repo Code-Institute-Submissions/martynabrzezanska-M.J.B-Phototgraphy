@@ -1,5 +1,7 @@
 # M.J.B Photography
 
+![amiresposive](/assets/images/README%20images/amiresponsive.png)
+
 ## User stories
 This website is for people who are wanting to hire a professional wedding photographer to capture the photos, moments, and details of life's most sentimental event. While on the website they will be able to learn more about the various wedding packages available, view the gallery of previous customer's photography, and contact a photographer by filling out a quick and simple form. In addition, the user will be able to build initial connections by reading a brief introduction to the person behind the curtain.
 
@@ -26,11 +28,11 @@ Hands-on experience to built a web development portfolio that looks and works fl
 ## **Header**
 The header is designed to be large enough to give breathing room to its elements and feel relaxed, while still hint that there are information visible below that you can navigate to. **The header contains the following elements:**
 
-## Navigation Menu
+>- ## Navigation Menu
 A simple navigation system with clear names allows visitors to easily access the most useful pages. On the left side of the bar is a responsive logo, as well as a list of internal page links to the right. 
 
 ![Navigation Menu](/assets/images/README%20images/navigationMenu.png)
-## Background Image 
+>- ## Background Image 
 A background image serves as a user's first glimpse of the company and it's offering. A CSS gradient overlay was added to the image to obtain a better balance between the image and the overlay text and button.  
 
 ![Background Image](/assets/images/README%20images/backgroundImage.png)
@@ -61,6 +63,10 @@ In this section, the user is able to find out about the various types of wedding
 
 1. Lets the user know about the various types of wedding packages available.
 2. When the user clicks on the link, they are directed to a contact page where they can make fill in a contact form. 
+
+And here's my first effort, which I wasn't too pleased with, so I made the necessary adjustments and polished it up as best I could.
+
+![initial wedding packages](/assets/images/README%20images/initialweddingpackages.png)
 
 ## **Image HTML**
 This section includes an image that corresponds to the wedding's theme. It's black and white, and blends in well with the rest ot the website's content. 
