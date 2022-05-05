@@ -21,6 +21,11 @@ This website is for people who are wanting to hire a professional wedding photog
 ## Wireframes 
 Three sub-pages present content for instant consumption on desktop, iPad, and mobile. The most critical content is found on the **home** page. From there, the user can enter the other two sub-pages by either clicking the links on the navigation menu or by interacting with the buttons or responsive packages boxes. From the footer area, the user can also access the other two pages through the choice of buttons, one for the gallery and the other for the contact page from where the user can make contact through form.  
 
+**Laptop**
+![Home Page](/assets/images/README%20images/laptophomepage.png)
+![Gallery Page](/assets/images/README%20images/laptopgallerypage.png)
+![Contact Page](/assets/images/README%20images/laptopcontactpage.png)
+
 # Developer Story and Goals
 Hands-on experience to built a web development portfolio that looks and works flawlessly. Implementation of features, run test and gain valuable experience and problem-solving practice.
 
